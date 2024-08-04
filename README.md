@@ -5,10 +5,11 @@ Este repositório contém a construção de um banco de dados em SQL que armazen
 ## Estrutura do repositório
 - **app.py:** Código que contém a classe `main`. Também contém a conexão com o servidor SQL e a construção do menu exibido ao usuário;
 - **graficos.py:** Código que contém as funções necessárias para a plotagem de gráficos referentes aos dados armazenados no BD;
-- **insercoes.py:** Código que contém as funções necessárias para a inserção de dados novos nas tabelas do banco de dados.
+- **insercoes.py:** Código que contém as funções necessárias para a inserção de dados novos nas tabelas do banco de dados;
+- **dump_bd.sql:** Dump do banco de dados construído para a aplicação. 
 
 ## Como usar
 
-Para o uso do aplicativo, o banco de dados deve ser construído em um servidor local a partir do arquivo dump `dump_bd.sql`. Ele pode então ser iniciado através do seguinte comando no terminal:
+Para o uso do aplicativo, o banco de dados deve ser construído em um servidor local a partir do arquivo dump `dump_bd.sql`. O programa pode então ser iniciado através do seguinte comando no terminal:
 
         python app.py
